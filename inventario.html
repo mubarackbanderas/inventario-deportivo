@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Sistema de Inventario Deportivo</title>
+<link rel="stylesheet" href="inventario.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>🏆 Inventario</h2>
+
+<a href="#">Dashboard</a>
+<a href="#">Productos</a>
+<a href="#">Reportes</a>
+<a href="login.html">Cerrar sesión</a>
+
+</div>
+
+<div class="main">
+
+<div class="topbar">
+<h2>🏀 Sistema de Inventario Deportivo</h2>
+<input type="text" placeholder="Buscar producto...">
+</div>
+
+<h1>Inventario de Artículos Deportivos</h1>
+<div class="cards">
+
+<div class="card">
+<h3>Productos</h3>
+<p>35</p>
+</div>
+
+<div class="card">
+<h3>Disponibles</h3>
+<p>28</p>
+</div>
+
+<div class="card">
+<h3>Agotados</h3>
+<p>7</p>
+</div>
+
+</div>
+
+<div class="formulario">
+
+<h3>Agregar Producto</h3>
+
+<input type="text" placeholder="Nombre del producto">
+<input type="text" placeholder="Deporte">
+<input type="number" placeholder="Cantidad">
+
+<select>
+<option>Disponible</option>
+<option>Agotado</option>
+</select>
+
+<button class="guardar">Guardar Producto</button>
+
+</div>
+
+<h3>Lista de Productos</h3>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Producto</th>
+<th>Deporte</th>
+<th>Cantidad</th>
+<th>Estado</th>
+<th>Acciones</th>
+</tr>
+
+<tr>
+<td>001</td>
+<td>Balón de fútbol</td>
+<td>Fútbol</td>
+<td>25</td>
+<td>Disponible</td>
+<td>
+<button class="editar">Editar</button>
+<button class="eliminar">Eliminar</button>
+</td>
+</tr>
+
+<tr>
+<td>002</td>
+<td>Balón de baloncesto</td>
+<td>Baloncesto</td>
+<td>15</td>
+<td>Disponible</td>
+<td>
+<button class="editar">Editar</button>
+<button class="eliminar">Eliminar</button>
+</td>
+</tr>
+
+<tr>
+<td>003</td>
+<td>Raqueta</td>
+<td>Tenis</td>
+<td>10</td>
+<td>Disponible</td>
+<td>
+<button class="editar">Editar</button>
+<button class="eliminar">Eliminar</button>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
